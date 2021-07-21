@@ -103,7 +103,7 @@ while success:
 	
 
 			if(nzCount >= 3):
-				# detect football
+				# Detect football
 				cv2.putText(image, 'football', (x-2, y-2), font, 0.8, (0,255,0), 2, cv2.LINE_AA)
 				cv2.rectangle(image,(x,y),(x+w,y+h),(0,255,0),3)
 
